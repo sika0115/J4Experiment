@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>QuartusPrime_extra</title>
+    <link rel="stylesheet" href="QuartusPrime_style.css">
+    <link rel="stylesheet" href="style_2.css">
+  </head>
+  <body>
+    <header>
+      <div class="rogo">
+      <a href="QuartusPrime.html"><img src="rogo/rogo.png" alt="QuartusPrime Online Manual" width="80%"></a>
+      </div>
+    </header>
+    <div id="wrap">
+    <div class="content">
+    <h1>回路図作成に用いる操作</h1>
+    <p>回路図を作成する際には1~5の操作を適宜用いる。</p>
+    <img src="images/Quartus1.jpg" width="70%" >
+    
+    <h3>1.シンボルの呼び出し</h3>
+    <img src="images/symbol1.jpg" width="60%">
+    <p>①枠内をダブルクリックすると上の画像のメニューが表示される。<br>
+        ⑧枠内のフォルダを展開し、primitivesのlogicの中から呼び出したいシンボルを選択し呼び出す。<br>
+        使用するシンボルが決まっている場合は、⑨枠内のNameから検索することもできる。<br>
+        シンボルを選択すると⑩枠内に選択シンボルが表示されるのでOKを押し、CADの画面に戻ったらシンボルを置きたいところに左クリックで設置する。<br>
+        なお、２つ以上設置する際、シンボルの周りの点線が互いに接してしまうと回路の動作に不具合が起きる可能性があるため、点線が互いに接しないように配置する必要がある。<br>
+        入力・出力等については、②のアイコンから入力ならInput、出力ならOutputを選択し①枠内にシンボル同様に設置する。
+    </p>
+
+    <h3>2.配線・結線</h3>
+    <h4>(a)配線</h4>
+        <p>配線はシンボルから線を引き、繋ぎたいシンボルに×のマークが到達したところで離すと配線される。
+           ③のアイコンからでも配線は可能である。
+        </p>
+    <h4>(b)結線</h4>
+        <p>結線は電気的に交わらせたい際に用いる。線と線を交わらせた時、大きい丸が表示された際に離すと結線される。</p>
+
+    <h3>3.移動</h3>
+    <p>シンボルの移動は④のアイコンをONにした状態でシンボルをクリックしドラックすると移動できる。</p>
+
+    <h3>4.フルスクリーン表示</h3>
+    <p>⑤のアイコンをクリックするとフルスクリーン表示/解除ができる。</p>
+
+    <h3>5.Rotate</h3>
+    <p>回転させたいシンボルを選択し右クリックすると出てくるメニューからRotate by Degreesを選択し、回転させたい角度を選ぶとシンボルがその角度分回転する。</p>
+
+    <br><a href="QuartusPrime.html">←back</a>
+    </div>
+    </div>
+
+    <footer>
+    <div class="footer-wrap">
+      <nav class="footer-list">
+          <div class="list-title">menu</div>
+            <ul class="list-main">
+              <li class="sub-list"><a href="QuartusPrime_start.html">1.QuartusPrimeの起動</a></li>
+              <li class="sub-list"><a href="Project.html">2.プロジェクトの登録</a></li>
+              <li class="sub-list"><a href="entity.html">3.entityファイル(designファイル)の作成</a></li>
+              <li class="sub-list"><a href="pinname.html">4.ピンネームの設定</a></li>
+              <li class="sub-list"><a href="file_save.html">5.ファイルの保存とコンパイル</a></li>
+              <li class="sub-list"><a href="pin_number.html">6.ピン番号の設定</a></li>
+              <li class="sub-list"><a href="config.html">7.FPGAのコンフィギュレーション</a></li>
+              <li class="sub-list"><a href="signal_tap.html">8.Signal Tapによる波形観測</a></li>
+              <li class="sub-list"><a href = "extra.html">回路図作成に用いる操作</a></li>
+            </ul>
+      </nav>      
+    </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+footer {
+    background-color: rgba(252, 251, 243, 0.89);
+}
+.footer-wrap {
+    width: 420px;
+    margin: 0 0 0 220px;
+    color:skyblue;
+}
+nav.footer-list {
+   /* margin: 25px auto 0;*/
+    padding: 20px;
+}
+.list-title {
+    width: 100%;
+    padding: 0 0 4px;
+    display: table;
+    font-size: 25px;
+    border-bottom: solid 3px skyblue;
+    text-align: left;
+}
+.list-main {
+    margin: 10px 0 0 10px;
+}
+.sub-list {
+    margin: 5px 0 0 20px;
+    list-style: disc;
+}

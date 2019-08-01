@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*基本設定*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdf4ce;
+    color: #696969;
+    font-size: 18px; 
+    line-height: 2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2,h3,h4 {
+    margin-top: 0;
+}
+
+a {
+    color: #788d98;
+    text-decoration: none;
+}
+a:hover {
+    color: skyblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+.img-pop {
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+}
+/*.img-pop2 {
+    margin-top: 60px;
+    margin-right: 15px;
+    float: right;
+}*/
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+.rogo {
+    float: left;
+    margin-top: 40px;
+}
+.menu {
+
+    margin: 30px 150px 150px 0px;
+    height: 50%;
+    width: 50%;
+
+}
+#content {
+    padding: 15px 0 0;
+}
+.QP {
+    float: right;
+    margin: 40px;
+}
+h1 {
+    color: #fa8072;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    color: #fa8072;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 3;
+}
+
+#mainfooter {
+    text-align: left;
+    color: #788d98;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 800px;
+    
+}
+
+.side {
+    text-align: left;
+    color: #788d98;
+    width: 960px;
+    margin: 0 auto;
+    line-height: 2;
+}

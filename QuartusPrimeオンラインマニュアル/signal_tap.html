@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quartus SignalTap</title>
+    <link rel="stylesheet" href="QuartusPrime_style.css">
+    <link rel="stylesheet" href="style_2.css">
+  </head>
+  <body>
+    <header>
+      <div class="rogo">
+      <a href="QuartusPrime.html"><img src="rogo/rogo.png" alt="QuartusPrime Online Manual" width="80%"></a>
+      </div>
+    </header>
+    <div id="wrap">
+    <div class="content">
+    <h1>Signal Tapによる波形観測</h1>
+
+    <h3>１．Signal Tapの呼び出し</h3>
+    <p>メニューバーのToolsからSignal Tap Logic Analyzerを選択するとSignal Tapが呼び出される。</p>
+    <img src="images/tools.jpg" height="20%">
+
+    <h3>２．観測信号の選択</h3>
+    <p>Signal Tap内のDouble-click to add nodesをダブルクリックするとNode Finderが表示される。</p>
+    <img src="images/double.jpg" width="40%"><br>
+    <img src="images/node.jpg" width="30%">
+    <p>Node FinderのOptions(<img src="images/option.jpg" width="15" height="15">を押すと出てくる)をPins:outputに設定し、
+      Listを押し、Matching Nodes内の<img src="images/yajirusi.jpg" width="15" height="15">のボタンを押すと、次のようになる。</p>
+    
+    <img src="images/kansoku.jpg" width="30%">
+
+    <h3>３．トリガー信号・トリガー条件の設定</h3>
+    <h4>(a)トリガー信号の設定</h4>
+    <p>トリガー信号はTrigger Enableの欄にチェックを入れる。</p>
+    <img src="images/Enable.jpg" width="10%">
+
+    <h4>(b)トリガー条件の設定</h4>
+    <p>トリガー条件はTrigger Conditionsの欄を選択し、次の選択肢の中から選ぶ。</p>
+    <img src="images/codition.jpg" width="10%">
+    <img src="images/Low.jpg" width="10%">
+
+    <h3>４．Sampling Clockの設定</h3>
+    <p>Sampling ClockをSignal Configuration内のClockで設定する。</p>
+    <img src="images/clk.jpg" width="20%">
+
+    <h3>５．Sample depthの設定</h3>
+    <p>Signal Configuration内のDataのSample depthで設定する。</p>
+
+    <h3>６．プロジェクトのコンパイル</h3>
+    <p>コンパイルする前にSignal Tapのパスを設定する部分に作成したファイルを設定する。<br>
+      <img src="images/JTAG.jpg" width="15%"><br>
+        その後、Quartus Prime上の元にプロジェクトの画面に戻り、コンパイルを行う。
+    </p>
+
+    <h3>７．FPGAのコンフィグレーション(Signal Tapを含む)</h3>
+    <p>コンパイルが終了したらロジックアナライザの画面に戻り、<img src="images/config2.jpg" width="15" height="15">を押し、コンフィグレーションを行う。</p>
+
+    <h3>８．観測の開始と終了</h3>
+    <p><img src="images/k_start.jpg" width="15" height="15">を押すと観測が開始され、
+      <img src="images/teisi.jpg" width="15" height="15">のアイコンを押すと観測を終了する。</p>
+
+    <h3>９．画面のズーム</h3>
+    <p><img src="images/kaku_shuku.jpg" width="15" height="15">を押すと画面がズームされる。もう一度押すと元に戻る。</p>
+
+    <h3>１０．結果の保存</h3>
+    <p>結果の保存はできないので波形を適切な観測範囲でスクリーンショット等で画像保存する。ファイル自体の保存は行える。</p>
+
+    <h3>１１．Signal Tapの削除と再追加</h3>
+    <p>観測終了後Signal Tapは閉じ、保存されないため、再度観測し直す際は再度追加し直す必要がある。</p>
+
+    <br><a href="QuartusPrime.html">←back</a>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-wrap">
+          <nav class="footer-list">
+              <div class="list-title">menu</div>
+                <ul class="list-main">
+                  <li class="sub-list"><a href="QuartusPrime_start.html">1.QuartusPrimeの起動</a></li>
+                  <li class="sub-list"><a href="Project.html">2.プロジェクトの登録</a></li>
+                  <li class="sub-list"><a href="entity.html">3.entityファイル(designファイル)の作成</a></li>
+                  <li class="sub-list"><a href="pinname.html">4.ピンネームの設定</a></li>
+                  <li class="sub-list"><a href="file_save.html">5.ファイルの保存とコンパイル</a></li>
+                  <li class="sub-list"><a href="pin_number.html">6.ピン番号の設定</a></li>
+                  <li class="sub-list"><a href="config.html">7.FPGAのコンフィギュレーション</a></li>
+                  <li class="sub-list"><a href="signal_tap.html">8.Signal Tapによる波形観測</a></li>
+                  <li class="sub-list"><a href = "extra.html">回路図作成に用いる操作</a></li>
+                </ul>
+          </nav>      
+        </div>
+      </footer>
+  </body>
+</html>
