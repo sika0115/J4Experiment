@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Quartus Pinname</title>
+    <title>Quartus pin_number</title>
     <link rel="stylesheet" href="QuartusPrime_style.css">
     <link rel="stylesheet" href="style_2.css">
   </head>
@@ -10,16 +10,28 @@
   <body>
     <header>
       <div class="rogo">
-        <a href="QuartusPrime.html"><img src="rogo/rogo.png" alt="QuartusPrime Online Manual" width="80%"></a>
+      <a href="index.html"><img src="rogo/rogo.png" alt="QuartusPrime Online Manual" width="80%"></a>
       </div>
     </header>
 
     <div id="wrap">
     <div class="content">
-    <h1>ピンネームの設定</h1>
-    <p>InputやOutputのシンボルをダブルクリックするとピンネームを変更することができる。</p>
+    <h1>ピン番号の設定</h1>
+    <h3>１．AssignmentsメニューからPin Plannerを選択</h3>
+    <p>コンパイル後、メニューバーのAssignmentsメニューからからPin Plannerを選択すると、次のような画面が表示される。</p>
+    <img src="images/pinplanner.jpg" width="30%" height="40%">
+
+    <h3>２．Pin Plannerウィンドの下にあるピン番号表のLocationに、ピン番号を登録</h3>
+    <p>Pin PlannerのAll PinsのLocationにピン番号を登録する。<br>
+       表のLocationを選択し、適宜ピン番号を選択し割り当てる。設定した後はPin Plannerウィンドを閉じる。
+    </p>
+
+    <h3>３．Projectをもう一度コンパイル</h3>
+    <p>ピン番号を設定後、元の画面に戻り、Projectを再びコンパイルする。
+    </p>
     
-    <a href="QuartusPrime.html">←back</a>
+    
+    <a href="index.html">←back</a>
     </div>
     </div>
 
@@ -40,7 +52,7 @@
                 </ul>
           </nav>      
         </div>
-      </footer>
+    </footer>
 
   </body>
-  </html>
+</html>
